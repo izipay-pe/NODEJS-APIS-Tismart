@@ -1,18 +1,14 @@
 
-Lista de APIS Consumidas:
-
 ### Lista de APIS Consumidas:
 
-```plain
--Charge/CreateTokenFromTransaction 
--PaymentOrder/Get
--PaymentOrder/Update (Da error)
--Charge/SDKTest
--Order/Get
--Token/Cancel
--Token/Get
--Token/Reactivate
-```
 
+| APIS Consumidas | Link de las API | 
+| ------------- |  ------------- | 
+| Charge/CreateTokenFromTransaction   | [https://api.micuentaweb.pe/api-payment/V4/Charge/CreateToken](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/playground/Charge/CreateToken)| 
+| PaymentOrder/Get  | |------------- | 
+| Contenido de la celda  |  ------------- | 
+| Contenido de la celda  |  ------------- | 
+| Contenido de la celda  | 
+| Contenido de la celda  | 
 
 
