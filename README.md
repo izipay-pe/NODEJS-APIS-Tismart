@@ -1,11 +1,18 @@
+
 Lista de APIS Consumidas:
 
--Charge/CreateTokenFromTransaction
+### Lista de APIS Consumidas:
+
+```plain
+-Charge/CreateTokenFromTransaction 
 -PaymentOrder/Get
--PaymentOrder/Update
+-PaymentOrder/Update (Da error)
 -Charge/SDKTest
 -Order/Get
 -Token/Cancel
 -Token/Get
 -Token/Reactivate
+```
+
+
 
