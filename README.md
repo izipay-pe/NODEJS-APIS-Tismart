@@ -1,7 +1,7 @@
-
-### Lista de APIS Consumidas:
-
-
+## Lista de APIs en NODEJS - Botón de pago Izipay
+```bash
+instalar NODEJS desde https://nodejs.org/es/.
+```
 | APIS Consumidas | Link de las API | 
 | ------------- |  ------------- | 
 | Charge/CreatePaymentOrder | [https://api.micuentaweb.pe/api-payment/V4/Charge/CreatePaymentOrder](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/playground/Charge/CreatePaymentOrder)| 
@@ -15,4 +15,3 @@
 | Token/Cancel | [https://api.micuentaweb.pe/api-payment/V4/Token/Cancel](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/playground/Token/Cancel)| 
 | Token/Reactivate | [https://api.micuentaweb.pe/api-payment/V4/Token/Reactivate](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/playground/Token/Reactivate)| 
 | Token/Update | [https://api.micuentaweb.pe/api-payment/V4/Token/Update](https://secure.micuentaweb.pe/doc/es-PE/rest/V4.0/api/playground/Token/Update)| 
-
