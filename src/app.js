@@ -6,7 +6,7 @@ const app = express();
 
 //Habilitar bloqueo de CORS
 const cors = require('cors');
-const lista= ['http://localhost:3000','https://izipay-ejemplo-php.000webhostapp.com'];
+const lista= ['http://localhost:5000','https://izipay-ejemplo-php.000webhostapp.com'];
 app.use(cors({origin: lista}));
 
 //Confiuguracion del puerto
@@ -25,6 +25,12 @@ app.use('/Token',require('./routes/TokenGet.js'));
 app.use('/Token',require('./routes/TokenReactivate.js'));
 app.use('/Token',require('./routes/TokenUpdate.js'));
 app.use('/Token',require('./routes/CreateTokenFromTransaction.js'));
+app.use('/Transaction',require('./routes/TransactionGet.js'));
+app.use('/Transaction',require('./routes/TransactionUpdate.js'));  
+app.use('/Transaction',require('./routes/TransactionValidate.js'));  
+app.use('/Subscription',require('./routes/SubscriptionCancel.js'));  
+app.use('/Subscription',require('./routes/SubscriptionGet.js')); 
+app.use('/Subscription',require('./routes/SubscriptionUpdate.js')); 
 
 //Emprezar el servidor
 //app.listen(app.get('port'), () =>{

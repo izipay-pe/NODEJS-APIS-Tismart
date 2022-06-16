@@ -7,8 +7,8 @@ router.post('/', function(req, res, next)
 {
   var order = req.body;
   
-  var username = 'xxxxxxx';
-  var password = 'testpassword_xxxxxxxxxxxxxxxxxxxx';
+  var username = '51447378';
+  var password = 'testpassword_6AfszrKgUUMmwuxkYM54oK7FRJuMITA94yhbQNFkndk03';
   var auth = 'Basic ' + new Buffer(username + ':' + password).toString('base64');
   
   if(isEmptyObject(order) === true || isEmptyObject(order) === 'undefined'){
