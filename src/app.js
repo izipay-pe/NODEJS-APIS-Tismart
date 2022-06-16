@@ -17,9 +17,14 @@ app.use(express.json());
 
 //Rutas de conexion
 app.use('/CreatePayment',require('./routes/formtoken.js'));
+app.use('/CreatePaymentOrder',require('./routes/CreatePaymentOrder.js'));
 app.use('/PaymentOrder',require('./routes/PaymentOrderGet.js'));
 app.use('/PaymentOrder',require('./routes/PaymentOrderUpdate.js'));
 app.use('/Token',require('./routes/TokenCancel.js'));
+app.use('/Token',require('./routes/TokenGet.js'));
+app.use('/Token',require('./routes/TokenReactivate.js'));
+app.use('/Token',require('./routes/TokenUpdate.js'));
+app.use('/Token',require('./routes/CreateTokenFromTransaction.js'));
 
 //Emprezar el servidor
 //app.listen(app.get('port'), () =>{
