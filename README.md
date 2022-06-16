@@ -1,7 +1,7 @@
 ## Lista de APIs en PHP - Botón de pago Izipay
 
 ```sh
-Instalar XAMPP https://www.apachefriends.org/
+Instalar NODE.js https://www.apachefriends.org/
 ``` 
 
 #### Transaction
